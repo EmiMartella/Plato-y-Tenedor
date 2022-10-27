@@ -1,0 +1,21 @@
+
+
+.boton_seguir {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    background-color:rgb(163, 127, 83);
+    color: white;
+  }
+  .boton_seguir--recetas{
+    @extend .boton_seguir;
+    padding: 20px 40px;
+    background-color: rgb(117, 48, 69);
+  }
+
+  // .boton_autor{
+  //   @extend .boton_seguir;
+  //   padding: 5px 10px;
+  // }
